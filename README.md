@@ -16,10 +16,10 @@
 
 
     <ul style="list-style: none; padding: 0; text-align: center;">
-      <li><a href="#education">Education</li>
-      <li><a href="#experience">Experience</li>
-      <li><a href="#academic-projects">Academic Projects</li>
-      <li><a href="#contact">Contact</li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#academic-projects">Academic Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 
     <!-- Icons for Email and LinkedIn -->
