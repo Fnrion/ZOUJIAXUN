@@ -6,7 +6,7 @@
     <p><strong>Assistant Analyst</strong><br>
        Singapore</p>
     <p>Email: <a href="mailto:connect@zoujiaxun.com">connect@zoujiaxun.com</a><br>
-       Website: <a href="https://www.zoujiaxun.com">https://www.zoujiaxun.com</a><br>
+       LinkedIn: <a href="https://www.linkedin.com/in/zoujiaxun">https://www.linkedin.com/in/zoujiaxun</a><br>
        Phone: +65 85914522</p>
 
     <h2>Education</h2>
