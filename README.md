@@ -2,9 +2,6 @@
 
   <!-- Main Content Section -->
   <div style="width: 70%; padding-right: 20px;">
-    <h1>Jiaxun Zou</h1>
-    <p><strong>Assistant Analyst</strong><br>
-       Singapore</p>
     <p>Email: <a href="mailto:connect@zoujiaxun.com">connect@zoujiaxun.com</a><br>
        LinkedIn: <a href="https://www.linkedin.com/in/zoujiaxun">https://www.linkedin.com/in/zoujiaxun</a><br>
        Phone: +65 85914522</p>
