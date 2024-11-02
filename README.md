@@ -1,10 +1,9 @@
 <!-- Include Font Awesome for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
+title: "Jiaxun Zou - Portfolio"
+
 <style>
-  h1 {
-    display: none;
-  }
   /* Style for the container */
   .container {
     display: flex;
