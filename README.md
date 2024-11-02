@@ -54,27 +54,26 @@
     <h2>Jiaxun Zou</h2>
     <p><em>Whole life unshaken</em></p>
 
-
-    <ul style="list-style: none; padding: 0; text-align: center;">
-      <li><a href="#About">About</a></li>
-      <li><a href="#Experience">Experience</a></li>
-      <li><a href="#academic-projects">Academic Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-
-    <!-- Icons for Email and LinkedIn -->
+    <!-- Icons for Email, LinkedIn, and GitHub -->
     <div style="margin: 10px 0;">
       <a href="mailto:connect@zoujiaxun.com" style="margin-right: 10px; color: #333;">
         <i class="fas fa-envelope" style="font-size: 24px;"></i>
       </a>
-      <a href="https://www.linkedin.com/in/zoujiaxun" style="color: #333;">
+      <a href="https://www.linkedin.com/in/zoujiaxun" style="margin-right: 10px; color: #333;">
         <i class="fab fa-linkedin" style="font-size: 24px;"></i>
       </a>
       <a href="https://github.com/Fnrion" style="color: #333;">
         <i class="fab fa-github" style="font-size: 24px;"></i>
       </a>
     </div>
-    
+
+    <ul style="list-style: none; padding: 0; text-align: center;">
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#academic-projects">Academic Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
     <h3>Additional Skills</h3>
     <p><strong>Technical Skills:</strong> R, Quarto, Spreadsheet, Shiny, Tableau, GPT, SAS, Python, EViews</p>
     <p><strong>Language Skills:</strong> English, Mandarin, French (beginner)</p>
