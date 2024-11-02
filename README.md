@@ -2,15 +2,36 @@
   h1 {
     display: none;
   }
+  /* Style for the container */
+  .container {
+    display: flex;
+    align-items: flex-start;
+  }
+  /* Style for the main content to provide enough space */
+  .main-content {
+    width: 70%;
+    padding-right: 20px;
+  }
+  /* Style for the sidebar to fix its position on the right */
+  .sidebar {
+    width: 25%;
+    background-color: #f0f4f8;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+  }
 </style>
 
-<!-- Include Font Awesome for icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-<div style="display: flex; align-items: flex-start;">
-
+<div class="container">
   <!-- Main Content Section -->
-  <div style="width: 70%; padding-right: 20px;">
+  <div class="main-content">
     <h2>Experience</h2>
     <h3>J.P. Morgan – China (Remote Part-time)</h3>
     <p><em>Assistant Analyst | Sep 2023 - Nov 2023</em></p>
@@ -54,10 +75,10 @@
     </ul>
   </div>
 
-  <!-- Sidebar Section with Centered Content and Icons -->
-  <div style="width: 30%; background-color: #f0f4f8; padding: 20px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+  <!-- Sidebar Section with Fixed Position and Centered Content -->
+  <div class="sidebar">
     <img src="profile.jpg" width="150px" alt="Profile Picture" style="border-radius: 50%; margin-bottom: 10px;">
-    <h2>Jiaxun Zou (邹佳迅)</h2>
+    <h2>Jiaxun Zou</h2>
     <p><em>Whole life unshaken</em></p>
 
     <!-- Icons for Email, LinkedIn, and GitHub -->
