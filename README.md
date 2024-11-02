@@ -58,8 +58,8 @@
   </div>
 
   <!-- Sidebar Section -->
-  <div style="width: 30%; background-color: #f0f4f8; padding: 20px;">
-    <img src="profile.jpg" width="150px" alt="Profile Picture" style="border-radius: 70%; margin-bottom: 10px;">
+  <div style="width: 30%; background-color: #f0f4f8; padding: 20px; text-align: center; display: flex; flex-direction: column; align-items: center;">
+    <img src="profile.jpg" width="150px" alt="Profile Picture" style="border-radius: 50%; margin-bottom: 10px;">
     <h2>Jiaxun Zou</h2>
     <p><em>Whole life unshaken</em></p>
     <ul>
