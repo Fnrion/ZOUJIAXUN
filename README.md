@@ -14,6 +14,14 @@
     <h2>Jiaxun Zou</h2>
     <p><em>Whole life unshaken</em></p>
 
+
+    <ul style="list-style: none; padding: 0; text-align: center;">
+      <li><a href="#education">Education</li>
+      <li><a href="#experience">Experience</li>
+      <li><a href="#academic-projects">Academic Projects</li>
+      <li><a href="#contact">Contact</li>
+    </ul>
+
     <!-- Icons for Email and LinkedIn -->
     <div style="margin: 10px 0;">
       <a href="mailto:connect@zoujiaxun.com" style="margin-right: 10px; color: #333;">
@@ -23,14 +31,7 @@
         <i class="fab fa-linkedin" style="font-size: 24px;"></i>
       </a>
     </div>
-
-    <ul style="list-style: none; padding: 0; text-align: center;">
-      <li><a href="#education">Education</li>
-      <li><a href="#experience">Experience</li>
-      <li><a href="#academic-projects">Academic Projects</li>
-      <li><a href="#contact">Contact</li>
-    </ul>
-
+    
     <h3>Additional Skills</h3>
     <p><strong>Technical Skills:</strong> R, Quarto, Spreadsheet, Shiny, Tableau, GPT, SAS, Python, EViews</p>
     <p><strong>Language Skills:</strong> English, Mandarin, French (beginner)</p>
