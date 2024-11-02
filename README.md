@@ -1,10 +1,6 @@
-title: "Jiaxun Zou (邹佳迅)"
-
 <style>
   h1 {
-    font-size: 2em; /* Adjust the size */
-    color: #333; /* Customize color */
-    margin-top: 10px; /* Adjust top margin */
+    display: none;
   }
 </style>
 
