@@ -56,8 +56,8 @@
 
 
     <ul style="list-style: none; padding: 0; text-align: center;">
-      <li><a href="#education">Education</a></li>
-      <li><a href="#experience">Experience</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Experience">Experience</a></li>
       <li><a href="#academic-projects">Academic Projects</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
@@ -69,6 +69,9 @@
       </a>
       <a href="https://www.linkedin.com/in/zoujiaxun" style="color: #333;">
         <i class="fab fa-linkedin" style="font-size: 24px;"></i>
+      </a>
+      <a href="https://github.com/Fnrion" style="color: #333;">
+        <i class="fab fa-github" style="font-size: 24px;"></i>
       </a>
     </div>
     
