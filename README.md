@@ -57,7 +57,7 @@
   <!-- Sidebar Section with Centered Content and Icons -->
   <div style="width: 30%; background-color: #f0f4f8; padding: 20px; text-align: center; display: flex; flex-direction: column; align-items: center;">
     <img src="profile.jpg" width="150px" alt="Profile Picture" style="border-radius: 50%; margin-bottom: 10px;">
-    <h2>Jiaxun Zou</h2>
+    <h2>Jiaxun Zou (邹佳迅)</h2>
     <p><em>Whole life unshaken</em></p>
 
     <!-- Icons for Email, LinkedIn, and GitHub -->
