@@ -4,8 +4,6 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 
-<h1 style="font-family: 'Roboto', sans-serif; font-size: 36px;">Songti TC</h1>
-
 <style>
   /* Style for the container */
   .container {
