@@ -49,7 +49,24 @@
 <div class="main-content">
   <section id="about">
     <h2>About</h2>
-    <!-- About content here -->
+
+**Assistant Analyst**  
+Singapore Management University, School of Computing and Information Systems  
+**Pursuing Master of IT in Business (Analytics Track)**  
+*Singapore*
+
+**Email**: connect@zoujiaxun.com  
+[LinkedIn](https://www.linkedin.com/in/zoujiaxun) | [GitHub](https://github.com/Fnrion)
+
+---
+
+I am currently a Master’s student at Singapore Management University, specializing in the Analytics Track of the Master of IT in Business (MITB) program. With a background in Business Administration and a deep interest in data-driven decision-making, I am passionate about leveraging data analytics to address complex business challenges.
+
+Previously, I have gained experience in financial analysis and trading, with roles at J.P. Morgan and Gaierpu International Trading Corporation. My professional journey has equipped me with skills in financial data analysis, market research, and strategic decision-making, enabling me to contribute effectively to data-centric roles. At J.P. Morgan, I assisted in consolidating data during a critical period of federal rate hikes, offering insights that supported the fund manager’s investment strategies.
+
+In addition to my financial expertise, I have hands-on experience with analytical tools like Python, R, and Tableau, which I use to uncover meaningful insights from data. I am also keen on exploring the applications of machine learning in business contexts and am committed to continuous learning and development in this field.
+
+My academic and professional experiences have not only refined my technical skills but also deepened my understanding of how data science can drive impactful solutions across industries.
   </section>
 
   <section id="experience">
@@ -71,7 +88,7 @@
     <h2>Publication</h2>
     <!-- Publication content here -->
   </section>
-</div>
+
 
 <!-- Sidebar Section with Fixed Position and Centered Content -->
 <div class="sidebar">
