@@ -68,25 +68,44 @@
       <p>I am currently a Master’s student at Singapore Management University, specializing in the Analytics Track of the Master of IT in Business (MITB) program. With a background in Business Administration and a deep interest in data-driven decision-making, I am passionate about leveraging data analytics to address complex business challenges.</p>
     </section>
 
-    <section id="experience">
-      <h2>Experience</h2>
+<style>
+  .job-title {
+    font-weight: bold;
+  }
+  .company-info {
+    font-style: italic;
+    color: #333;
+  }
+  .date-info {
+    color: #666;
+    font-style: italic;
+  }
+</style>
 
-      <p><strong>Gaierpu International Trading Corporation, Export Trader</strong><br>
-      <em>Jiangsu, China</em><br>
-      <span>Jun 2021 - Aug 2021</span><br>
-      Collaborated with a team on inventory checks and customer engagement, securing a bulk order of 10,000 N95 masks and achieving 100% on-time delivery to enhance customer satisfaction.</p>
+<section id="experience">
+  <h2>Experience</h2>
 
-      <p><strong>Changzhou Jinbaihe, Account Assistant</strong><br>
-      <em>Jiangsu, China</em><br>
-      <span>Jun 2022 - Aug 2022</span><br>
-      Recorded daily transactions, coordinated financial reporting with department managers, and analyzed statements. Helped increase cash flow by 12% through insights on abnormal data like high receivables.</p>
-      
-      <p><strong>J.P. Morgan, Assistant Analyst</strong><br>
-      <em>China (Remote Part-time)</em><br>
-      <span>Sep 2023 - Nov 2023</span><br>
-      Collected financial data during the federal rate hike cycle, consolidating insights in the database. Conducted company research, analyzed market trends, and provided investment recommendations to the fund manager.</p>
+  <p>
+    <span class="job-title">Export Trader</span>, Gaierpu International Trading Corporation<br>
+    <span class="company-info">Jiangsu, China</span><br>
+    <span class="date-info">Jun 2021 - Aug 2021</span><br>
+    Collaborated with a team on inventory checks and customer engagement, securing a bulk order of 10,000 N95 masks and achieving 100% on-time delivery to enhance customer satisfaction.
+  </p>
 
-    </section>
+  <p>
+    <span class="job-title">Account Assistant</span>, Changzhou Jinbaihe<br>
+    <span class="company-info">Jiangsu, China</span><br>
+    <span class="date-info">Jun 2022 - Aug 2022</span><br>
+    Recorded daily transactions, coordinated financial reporting with department managers, and analyzed statements. Helped increase cash flow by 12% through insights on abnormal data like high receivables.
+  </p>
+  
+  <p>
+    <span class="job-title">Assistant Analyst</span>, J.P. Morgan<br>
+    <span class="company-info">China (Remote Part-time)</span><br>
+    <span class="date-info">Sep 2023 - Nov 2023</span><br>
+    Collected financial data during the federal rate hike cycle, consolidating insights in the database. Conducted company research, analyzed market trends, and provided investment recommendations to the fund manager.
+  </p>
+</section>
 
     <section id="publication">
       <h2>Publication</h2>
