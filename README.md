@@ -107,6 +107,18 @@
   </p>
 </section>
 
+
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <!-- Projects content here -->
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <!-- Skills content here -->
+    </section>
+
     <section id="publication">
       <h2>Publication</h2>
       <!-- Publication content here -->
