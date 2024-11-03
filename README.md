@@ -50,7 +50,7 @@
   <div class="main-content">
     <section id="about">
       <p><strong>Student</strong><br>
-      <strong>Singapore Management University, School of Computing and Information Systems<strong><br>
+      <strong>Singapore Management University, School of Computing and Information Systems</strong><br>
       <strong>Pursuing Master of IT in Business (Analytics Track)</strong><br>
       <em>Singapore</em>
 
