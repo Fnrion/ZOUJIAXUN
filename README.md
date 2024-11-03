@@ -47,13 +47,13 @@
 
 <title>Jiaxun Zou</title>
 
+
 <div class="container">
   <!-- Main Content Section -->
   <div class="main-content">
     <section id="about">
-      <h2></h2>
       <p><strong>Student</strong><br>
-      <strong>Singapore Management University, School of Computing and Information Systems<strong><br>
+      Singapore Management University, School of Computing and Information Systems<br>
       <strong>Pursuing Master of IT in Business (Analytics Track)</strong><br>
       <em>Singapore</em></p>
 
