@@ -58,7 +58,6 @@
       <hr>
 
       <p>I am currently a Master’s student at Singapore Management University, specializing in the Analytics Track of the Master of IT in Business (MITB) program. Also, with a background in Business Administration and a deep interest in data-driven decision-making, I am passionate about leveraging data analytics to address complex business challenges.</p>
-
     </section>
 
     <section id="experience">
