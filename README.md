@@ -1,4 +1,3 @@
-<!-- Include Font Awesome for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
@@ -53,12 +52,11 @@
       <p><strong>Student</strong><br>
       <strong>Singapore Management University, School of Computing and Information Systems<strong><br>
       <strong>Pursuing Master of IT in Business (Analytics Track)</strong><br>
-      <em>Singapore</em></p>
+      <em>Singapore</em>
 
       <hr>
 
       <p>I am currently a Master’s student at Singapore Management University, specializing in the Analytics Track of the Master of IT in Business (MITB) program. Also, with a background in Business Administration and a deep interest in data-driven decision-making, I am passionate about leveraging data analytics to address complex business challenges.</p>
-    </section>
 
     <section id="experience">
       <h2>Experience</h2>
