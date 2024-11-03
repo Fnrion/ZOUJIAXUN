@@ -13,6 +13,7 @@
   .main-content {
     width: 70%;
     padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
   }
   /* Style for the sidebar to fix its position on the right */
   .sidebar {
