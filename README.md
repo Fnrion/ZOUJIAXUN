@@ -110,7 +110,7 @@
 
     <section id="projects">
       <h2>Projects</h2>
-      <!-- Projects content here -->
+
     </section>
 
     <section id="skills">
@@ -176,7 +176,6 @@
       });
     }
 
-    // Run highlightCurrentSection on scroll
     window.addEventListener("scroll", highlightCurrentSection);
   });
 </script>
