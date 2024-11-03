@@ -45,9 +45,6 @@
   }
 </style>
 
-<title>Jiaxun Zou</title>
-
-
 <div class="container">
   <!-- Main Content Section -->
   <div class="main-content">
@@ -59,13 +56,8 @@
 
       <hr>
 
-      <p>I am currently a Master’s student at Singapore Management University, specializing in the Analytics Track of the Master of IT in Business (MITB) program. With a background in Business Administration and a deep interest in data-driven decision-making, I am passionate about leveraging data analytics to address complex business challenges.</p>
+      <p>I am currently a Master’s student at Singapore Management University, specializing in the Analytics Track of the Master of IT in Business (MITB) program. Also, with a background in Business Administration and a deep interest in data-driven decision-making, I am passionate about leveraging data analytics to address complex business challenges.</p>
 
-      <p>Previously, I have gained experience in financial analysis and trading, with roles at J.P. Morgan and Gaierpu International Trading Corporation. My professional journey has equipped me with skills in financial data analysis, market research, and strategic decision-making, enabling me to contribute effectively to data-centric roles. At J.P. Morgan, I assisted in consolidating data during a critical period of federal rate hikes, offering insights that supported the fund manager’s investment strategies.</p>
-
-      <p>In addition to my financial expertise, I have hands-on experience with analytical tools like Python, R, and Tableau, which I use to uncover meaningful insights from data. I am also keen on exploring the applications of machine learning in business contexts and am committed to continuous learning and development in this field.</p>
-
-      <p>My academic and professional experiences have not only refined my technical skills but also deepened my understanding of how data science can drive impactful solutions across industries.</p>
     </section>
 
     <section id="experience">
