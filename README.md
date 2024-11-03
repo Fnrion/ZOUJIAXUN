@@ -1,6 +1,5 @@
 <!-- Include Font Awesome for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 <style>
@@ -9,14 +8,15 @@
     display: flex;
     align-items: flex-start;
   }
-  /* Style for the main content to provide enough space */
+
+  /* Style for the main content */
   .main-content {
     width: 70%;
     padding-right: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
   }
-  /* Style for the sidebar to fix its position on the right */
+
+  /* Style for the sidebar */
   .sidebar {
     width: 25%;
     background-color: #f0f4f8;
@@ -32,6 +32,7 @@
     overflow-y: auto;
     font-family: 'Roboto', sans-serif;
   }
+
   /* Style for sidebar links */
   .sidebar-link {
     color: #333;
@@ -39,36 +40,22 @@
     padding: 5px;
     display: block;
     transition: background-color 0.3s;
-    font-weight: normal; /* Set font-weight to normal for sidebar links */
   }
+
   /* Style for the active link */
   .sidebar-link.active {
-    background-color: #d0e1ff; /* Highlight color */
+    background-color: #d0e1ff;
     border-radius: 5px;
     font-weight: bold;
   }
+
   /* Styling for headings */
   h2 {
-    font-weight: bold; /* Apply bold specifically to headings */
-    font-family: 'Roboto', sans-serif; /* Use Roboto for headings */
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
   }
-</style>
 
-<div class="container">
-  <!-- Main Content Section -->
-  <div class="main-content">
-    <section id="about">
-      <p>Student<br>
-      Singapore Management University, School of Computing and Information Systems<br>
-      Pursuing Master of IT in Business (Analytics Track)<br>
-      <em>Singapore</em></p>
-
-      <hr>
-
-      <p>I am currently a Master’s student at Singapore Management University, specializing in the Analytics Track of the Master of IT in Business (MITB) program. With a background in Business Administration and a deep interest in data-driven decision-making, I am passionate about leveraging data analytics to address complex business challenges.</p>
-    </section>
-
-<style>
+  /* Custom styles for experience section */
   .job-title {
     font-weight: bold;
   }
@@ -82,32 +69,42 @@
   }
 </style>
 
-<section id="experience">
-  <h2>Experience</h2>
+<div class="container">
+  <!-- Main Content Section -->
+  <div class="main-content">
+    <section id="about">
+      <p>Student<br>
+      Singapore Management University, School of Computing and Information Systems<br>
+      Pursuing Master of IT in Business (Analytics Track)<br>
+      <em>Singapore</em></p>
+      <hr>
+      <p>I am currently a Master’s student at Singapore Management University, specializing in the Analytics Track of the Master of IT in Business (MITB) program. With a background in Business Administration and a deep interest in data-driven decision-making, I am passionate about leveraging data analytics to address complex business challenges.</p>
+    </section>
 
-  <p>
-    <span class="job-title">Export Trader</span>, Gaierpu International Trading Corporation<br>
-    <span class="company-info">Jiangsu, China</span><br>
-    <span class="date-info">Jun 2021 - Aug 2021</span><br>
-    Collaborated with a team on inventory checks and customer engagement, securing a bulk order of 10,000 N95 masks and achieving 100% on-time delivery to enhance customer satisfaction.
-  </p>
+    <section id="experience">
+      <h2>Experience</h2>
 
-  <p>
-    <span class="job-title">Account Assistant</span>, Changzhou Jinbaihe<br>
-    <span class="company-info">Jiangsu, China</span><br>
-    <span class="date-info">Jun 2022 - Aug 2022</span><br>
-    Recorded daily transactions, coordinated financial reporting with department managers, and analyzed statements. Helped increase cash flow by 12% through insights on abnormal data like high receivables.
-  </p>
-  
-  <p>
-    <span class="job-title">Assistant Analyst</span>, J.P. Morgan<br>
-    <span class="company-info">China (Remote Part-time)</span><br>
-    <span class="date-info">Sep 2023 - Nov 2023</span><br>
-    Collected financial data during the federal rate hike cycle, consolidating insights in the database. Conducted company research, analyzed market trends, and provided investment recommendations to the fund manager.
-  </p>
-</section>
+      <p>
+        <span class="job-title">Export Trader</span>, Gaierpu International Trading Corporation<br>
+        <span class="company-info">Jiangsu, China</span><br>
+        <span class="date-info">Jun 2021 - Aug 2021</span><br>
+        Collaborated with a team on inventory checks and customer engagement, securing a bulk order of 10,000 N95 masks and achieving 100% on-time delivery to enhance customer satisfaction.
+      </p>
 
-
+      <p>
+        <span class="job-title">Account Assistant</span>, Changzhou Jinbaihe<br>
+        <span class="company-info">Jiangsu, China</span><br>
+        <span class="date-info">Jun 2022 - Aug 2022</span><br>
+        Recorded daily transactions, coordinated financial reporting with department managers, and analyzed statements. Helped increase cash flow by 12% through insights on abnormal data like high receivables.
+      </p>
+      
+      <p>
+        <span class="job-title">Assistant Analyst</span>, J.P. Morgan<br>
+        <span class="company-info">China (Remote Part-time)</span><br>
+        <span class="date-info">Sep 2023 - Nov 2023</span><br>
+        Collected financial data during the federal rate hike cycle, consolidating insights in the database. Conducted company research, analyzed market trends, and provided investment recommendations to the fund manager.
+      </p>
+    </section>
 
     <section id="projects">
       <h2>Projects</h2>
@@ -125,7 +122,7 @@
     </section>
   </div>
 
-  <!-- Sidebar Section with Fixed Position and Centered Content -->
+  <!-- Sidebar Section -->
   <div class="sidebar">
     <img src="profile.jpg" width="180px" alt="Profile Picture" style="border-radius: 50%; margin-bottom: 10px;">
     <h2>Jiaxun Zou</h2>
