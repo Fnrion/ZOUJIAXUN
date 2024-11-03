@@ -1,6 +1,7 @@
+<!-- Include Font Awesome for icons -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 <style>
   /* Style for the container */
@@ -13,6 +14,7 @@
     width: 70%;
     padding-right: 20px;
     font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
   }
   /* Style for the sidebar to fix its position on the right */
   .sidebar {
@@ -28,6 +30,7 @@
     flex-direction: column;
     align-items: center;
     overflow-y: auto;
+    font-family: 'Roboto', sans-serif;
   }
   /* Style for sidebar links */
   .sidebar-link {
@@ -36,6 +39,7 @@
     padding: 5px;
     display: block;
     transition: background-color 0.3s;
+    font-weight: normal; /* Set font-weight to normal for sidebar links */
   }
   /* Style for the active link */
   .sidebar-link.active {
@@ -43,20 +47,26 @@
     border-radius: 5px;
     font-weight: bold;
   }
+  /* Styling for headings */
+  h2 {
+    font-weight: bold; /* Apply bold specifically to headings */
+    font-family: 'Roboto', sans-serif; /* Use Roboto for headings */
+  }
 </style>
 
 <div class="container">
   <!-- Main Content Section -->
   <div class="main-content">
     <section id="about">
-      <p><strong>Student</strong><br>
-      <strong>Singapore Management University, School of Computing and Information Systems</strong><br>
-      <strong>Pursuing Master of IT in Business (Analytics Track)</strong><br>
-      <em>Singapore</em>
+      <p>Student<br>
+      Singapore Management University, School of Computing and Information Systems<br>
+      Pursuing Master of IT in Business (Analytics Track)<br>
+      <em>Singapore</em></p>
 
       <hr>
 
-      <p>I am currently a Master’s student at Singapore Management University, specializing in the Analytics Track of the Master of IT in Business (MITB) program. Also, with a background in Business Administration and a deep interest in data-driven decision-making, I am passionate about leveraging data analytics to address complex business challenges.</p>
+      <p>I am currently a Master’s student at Singapore Management University, specializing in the Analytics Track of the Master of IT in Business (MITB) program. With a background in Business Administration and a deep interest in data-driven decision-making, I am passionate about leveraging data analytics to address complex business challenges.</p>
+    </section>
 
     <section id="experience">
       <h2>Experience</h2>
