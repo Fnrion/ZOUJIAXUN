@@ -46,61 +46,101 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<style>
-  h1 {
-    display: none;
-  }
-</style>
 <!-- Include Font Awesome for icons -->
 <p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></p>
-<div style="display: flex; align-items: flex-start;">
+<p><link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet"></p>
+<style>
+  /* Style for the container */
+  .container {
+    display: flex;
+    align-items: flex-start;
+  }
+  /* Style for the main content to provide enough space */
+  .main-content {
+    width: 70%;
+    padding-right: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+  }
+  /* Style for the sidebar to fix its position on the right */
+  .sidebar {
+    width: 25%;
+    background-color: #f0f4f8;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  /* Style for sidebar links */
+  .sidebar-link {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+    display: block;
+    transition: background-color 0.3s;
+    font-weight: normal; /* Set font-weight to normal for sidebar links */
+  }
+  /* Style for the active link */
+  .sidebar-link.active {
+    background-color: #d0e1ff; /* Highlight color */
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  /* Styling for headings */
+  h2 {
+    font-weight: bold; /* Apply bold specifically to headings */
+    font-family: 'Roboto', sans-serif; /* Use Roboto for headings */
+  }
+</style>
+<div class="container">
 <!-- Main Content Section -->
-<div style="width: 70%; padding-right: 20px;">
-<pre><code>&lt;h2&gt;Experience&lt;/h2&gt;
-&lt;h3&gt;J.P. Morgan – China (Remote Part-time)&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Assistant Analyst | Sep 2023 - Nov 2023&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Collected financial data during the federal rate hike cycle to consolidate data in the database.&lt;/li&gt;
-  &lt;li&gt;Reviewed and collated data on companies by researching annual reports, IPO letters, and other sources.&lt;/li&gt;
-  &lt;li&gt;Conducted company research on East Money Credit Co., Ltd., analyzing future market share and profitability.&lt;/li&gt;
-  &lt;li&gt;Analyzed different index trends and stock valuations (A-share and H-share), providing investment recommendations to the fund manager.&lt;/li&gt;
-&lt;/ul&gt;
+<div class="main-content">
+<pre><code>&lt;section id="about"&gt;
+  &lt;p&gt;Student&lt;br&gt;
+  Singapore Management University, School of Computing and Information Systems&lt;br&gt;
+  Pursuing Master of IT in Business (Analytics Track)&lt;br&gt;
+  &lt;em&gt;Singapore&lt;/em&gt;&lt;/p&gt;
 
-&lt;h3&gt;Changzhou Jinbaihe – Jiangsu, China&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Account Assistant | Jun 2022 - Aug 2022&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Recorded daily transactions in the financial system and checked daily bills to eliminate reporting errors.&lt;/li&gt;
-  &lt;li&gt;Wrote weekly memos and coordinated with department managers to monitor finances.&lt;/li&gt;
-  &lt;li&gt;Analyzed financial statements, providing insights on abnormal data like high receivables, and helped increase cash flow by 12%.&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;hr&gt;
 
-&lt;h3&gt;Gaierpu International Trading Corporation – Jiangsu, China&lt;/h3&gt;
-&lt;p&gt;&lt;em&gt;Export Trader | Jun 2021 - Aug 2021&lt;/em&gt;&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Collaborated with a team of three to conduct inventory checks and engaged directly with customers.&lt;/li&gt;
-  &lt;li&gt;Secured a bulk order of 10,000 N95 masks by connecting with suppliers and negotiating favorable terms.&lt;/li&gt;
-  &lt;li&gt;Monitored fulfillment, achieving 100% on-time delivery and enhancing customer satisfaction.&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;p&gt;I am currently a Master’s student at Singapore Management University, specializing in the Analytics Track of the Master of IT in Business (MITB) program. With a background in Business Administration and a deep interest in data-driven decision-making, I am passionate about leveraging data analytics to address complex business challenges.&lt;/p&gt;
+&lt;/section&gt;
 
-&lt;h2&gt;Academic Projects&lt;/h2&gt;
-&lt;h3&gt;Illegal Fish Company Business Activity Analysis (R)&lt;/h3&gt;
-&lt;p&gt;Developed an interactive visual analytics tool using Shiny to analyze corporate networks of fishery companies potentially involved in illegal, unreported, and unregulated (IUU) fishing activities.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Processed a knowledge graph with data on companies, owners, employees, and financial status, suitable for network analysis.&lt;/li&gt;
-  &lt;li&gt;Utilized Centrality Analysis to detect influential entities within the network, identifying ownership structures and control links.&lt;/li&gt;
-&lt;/ul&gt;
+&lt;section id="experience"&gt;
+  &lt;h2&gt;Experience&lt;/h2&gt;
 
-&lt;h3&gt;IBM Employee Estimated Value Analysis (Python)&lt;/h3&gt;
-&lt;p&gt;Built a model to optimize IBM's Employee Estimated Value (EEV) by identifying high-impact factors on employee satisfaction.&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Implemented a Random Forest classifier to identify “at-risk” employees based on job role, performance score, and satisfaction.&lt;/li&gt;
-  &lt;li&gt;Segmented employees using K-means clustering, enabling targeted interventions for different employee profiles.&lt;/li&gt;
-  &lt;li&gt;Created Tableau dashboards to visualize employee segments and recommended strategies for each cluster.&lt;/li&gt;
-&lt;/ul&gt;</code></pre>
+  &lt;p&gt;&lt;strong&gt;Gaierpu International Trading Corporation, Export Trader&lt;/strong&gt;&lt;br&gt;
+  &lt;em&gt;Jiangsu, China&lt;/em&gt;&lt;br&gt;
+  &lt;span&gt;Jun 2021 - Aug 2021&lt;/span&gt;&lt;br&gt;
+  Collaborated with a team on inventory checks and customer engagement, securing a bulk order of 10,000 N95 masks and achieving 100% on-time delivery to enhance customer satisfaction.&lt;/p&gt;
+
+  &lt;p&gt;&lt;strong&gt;Changzhou Jinbaihe, Account Assistant&lt;/strong&gt;&lt;br&gt;
+  &lt;em&gt;Jiangsu, China&lt;/em&gt;&lt;br&gt;
+  &lt;span&gt;Jun 2022 - Aug 2022&lt;/span&gt;&lt;br&gt;
+  Recorded daily transactions, coordinated financial reporting with department managers, and analyzed statements. Helped increase cash flow by 12% through insights on abnormal data like high receivables.&lt;/p&gt;
+  
+  &lt;p&gt;&lt;strong&gt;J.P. Morgan, Assistant Analyst&lt;/strong&gt;&lt;br&gt;
+  &lt;em&gt;China (Remote Part-time)&lt;/em&gt;&lt;br&gt;
+  &lt;span&gt;Sep 2023 - Nov 2023&lt;/span&gt;&lt;br&gt;
+  Collected financial data during the federal rate hike cycle, consolidating insights in the database. Conducted company research, analyzed market trends, and provided investment recommendations to the fund manager.&lt;/p&gt;
+
+&lt;/section&gt;
+
+&lt;section id="publication"&gt;
+  &lt;h2&gt;Publication&lt;/h2&gt;
+  &lt;!-- Publication content here --&gt;
+&lt;/section&gt;</code></pre>
 </div>
-<!-- Sidebar Section with Centered Content and Icons -->
-<div style="width: 30%; background-color: #f0f4f8; padding: 20px; text-align: center; display: flex; flex-direction: column; align-items: center;">
-<pre><code>&lt;img src="profile.jpg" width="150px" alt="Profile Picture" style="border-radius: 50%; margin-bottom: 10px;"&gt;
+<!-- Sidebar Section with Fixed Position and Centered Content -->
+<div class="sidebar">
+<pre><code>&lt;img src="profile.jpg" width="180px" alt="Profile Picture" style="border-radius: 50%; margin-bottom: 10px;"&gt;
 &lt;h2&gt;Jiaxun Zou&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Whole life unshaken&lt;/em&gt;&lt;/p&gt;
 
@@ -117,19 +157,42 @@ ul.task-list li input[type="checkbox"] {
   &lt;/a&gt;
 &lt;/div&gt;
 
+&lt;!-- Sidebar Navigation Links --&gt;
 &lt;ul style="list-style: none; padding: 0; text-align: center;"&gt;
-  &lt;li&gt;&lt;a href="#about"&gt;About&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#experience"&gt;Experience&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#academic-projects"&gt;Academic Projects&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+  &lt;li&gt;&lt;a href="#about" class="sidebar-link"&gt;About&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#experience" class="sidebar-link"&gt;Experience&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#projects" class="sidebar-link"&gt;Projects&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#skills" class="sidebar-link"&gt;Skills&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#publication" class="sidebar-link"&gt;Publication&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</code></pre>
+</div>
+</div>
+<!-- JavaScript to Highlight Active Section in Sidebar -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const sections = document.querySelectorAll("section");
+    const sidebarLinks = document.querySelectorAll(".sidebar-link");
 
-&lt;h3&gt;Additional Skills&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Technical Skills:&lt;/strong&gt; R, Quarto, Spreadsheet, Shiny, Tableau, GPT, SAS, Python, EViews&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Language Skills:&lt;/strong&gt; English, Mandarin, French (beginner)&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Work Authorization:&lt;/strong&gt; Singapore (Internship), China (Citizen)&lt;/p&gt;</code></pre>
-</div>
-</div>
+    // Function to clear all active classes
+    function clearActiveLinks() {
+      sidebarLinks.forEach(link => link.classList.remove("active"));
+    }
+
+    // Function to highlight the current section's sidebar link
+    function highlightCurrentSection() {
+      sections.forEach((section, index) => {
+        const sectionTop = section.getBoundingClientRect().top;
+        if (sectionTop <= window.innerHeight / 2 && sectionTop >= 0) {
+          clearActiveLinks();
+          sidebarLinks[index].classList.add("active");
+        }
+      });
+    }
+
+    // Run highlightCurrentSection on scroll
+    window.addEventListener("scroll", highlightCurrentSection);
+  });
+</script>
 
 </main>
 <!-- /main column -->

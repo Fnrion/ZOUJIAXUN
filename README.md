@@ -70,17 +70,22 @@
 
     <section id="experience">
       <h2>Experience</h2>
-      <!-- Experience content here -->
-    </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <!-- Projects content here -->
-    </section>
+      <p><strong>Gaierpu International Trading Corporation, Export Trader</strong><br>
+      <em>Jiangsu, China</em><br>
+      <span>Jun 2021 - Aug 2021</span><br>
+      Collaborated with a team on inventory checks and customer engagement, securing a bulk order of 10,000 N95 masks and achieving 100% on-time delivery to enhance customer satisfaction.</p>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <!-- Skills content here -->
+      <p><strong>Changzhou Jinbaihe, Account Assistant</strong><br>
+      <em>Jiangsu, China</em><br>
+      <span>Jun 2022 - Aug 2022</span><br>
+      Recorded daily transactions, coordinated financial reporting with department managers, and analyzed statements. Helped increase cash flow by 12% through insights on abnormal data like high receivables.</p>
+      
+      <p><strong>J.P. Morgan, Assistant Analyst</strong><br>
+      <em>China (Remote Part-time)</em><br>
+      <span>Sep 2023 - Nov 2023</span><br>
+      Collected financial data during the federal rate hike cycle, consolidating insights in the database. Conducted company research, analyzed market trends, and provided investment recommendations to the fund manager.</p>
+
     </section>
 
     <section id="publication">
