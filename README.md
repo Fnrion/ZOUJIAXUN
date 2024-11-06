@@ -135,14 +135,14 @@
 <section id="skills">
   <h2>Skills</h2>
   <ul>
-    <li><strong>R</strong></li>
-    <li><strong>Quarto</strong></li>
-    <li><strong>Spreadsheet</strong></li>
-    <li><strong>Shiny</strong></li>
-    <li><strong>Tableau</strong>: <a href="https://public.tableau.com/app/profile/jiaxun.zou/vizzes" target="_blank"></li>
-    <li><strong>SAS</strong></li>
-    <li><strong>Python</strong></li>
-    <li><strong>EViews</strong></li>
+    <li>R</li>
+    <li>Quarto</li>
+    <li>Spreadsheet</li>
+    <li>Shiny</li>
+    <li><a href="https://public.tableau.com/app/profile/jiaxun.zou/vizzes" target="_blank">Tableau</a></li>
+    <li>SAS</li>
+    <li>Python</li>
+    <li>EViews</li>
   </ul>
 </section>
 
