@@ -113,8 +113,17 @@
 
   <div style="margin-bottom: 20px;">
     <h3>Illegal Fish Company Business Activity Analysis (R)</h3>
-    <p>Used Shiny to develop an interactive visual analytics tool to analyze and monitor corporate networks of fishery companies potentially involved in illegal, unreported, and unregulated (IUU) fishing activities. Processed a knowledge graph with data on companies, owners, employees, and financial status, transforming activities (nodes) and relationship (edges) into a structure suitable for network analysis. Utilized Centrality Analysis (Degree and Betweenness Centrality) to detect key entities with significant influence within the network, revealing ownership structures and transactional connections indicative of control.</p>
+    <a href="https://isss608-ay2022-23t2-jiaxunzou.netlify.app/" target="_blank">
+      <img src="Visual.png" alt="Illegal Fish Company Project Screenshot" style="width:100%; max-width:600px; border-radius:10px; margin-top:10px;">
+    </a>
+    <p>Used Shiny to develop an interactive visual analytics tool to analyze and monitor corporate networks of fishery companies potentially involved in illegal, unreported, and unregulated (IUU) fishing activities. Processed a knowledge graph with data on companies, owners, employees, and financial status, transforming activities (nodes) and relationships (edges) into a structure suitable for network analysis. Utilized Centrality Analysis (Degree and Betweenness Centrality) to detect key entities with significant influence within the network, revealing ownership structures and transactional connections indicative of control.</p>
   </div>
+
+  <div style="margin-bottom: 20px;">
+    <h3>IBM Employee Estimated Value Analysis (Python)</h3>
+    <p>Created a data-driven model to optimize EEV (Employee Estimated Value) for IBM by identifying high-impact factors affecting employee satisfaction. Implemented a Random Forest classifier to identify "at-risk" employees based on factors like job role, performance score, and satisfaction levels. Utilized K-means clustering to segment employees into distinct groups based on behavior patterns, tenure, and satisfaction scores, enabling targeted interventions for different employee profiles.</p>
+  </div>
+</section>
 
   <div>
     <h3>IBM Employee Estimated Value Analysis (Python)</h3>
@@ -123,11 +132,18 @@
 </section>
 
 
-    <section id="skills">
+<section id="skills">
   <h2>Skills</h2>
-  <p>
-    <strong>Tableau</strong>: <a href="https://public.tableau.com/app/profile/jiaxun.zou/vizzes" target="_blank">Tableau Public Profile</a>
-  </p>
+  <ul>
+    <li><strong>R</strong></li>
+    <li><strong>Quarto</strong></li>
+    <li><strong>Spreadsheet</strong></li>
+    <li><strong>Shiny</strong></li>
+    <li><strong>Tableau</strong>: <a href="https://public.tableau.com/app/profile/jiaxun.zou/vizzes" target="_blank">Tableau Public Profile</a></li>
+    <li><strong>SAS</strong></li>
+    <li><strong>Python</strong></li>
+    <li><strong>EViews</strong></li>
+  </ul>
 </section>
 
 <section id="community">
