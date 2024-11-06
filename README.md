@@ -111,23 +111,17 @@
 <section id="projects">
   <h2>Projects</h2>
 
-  <!-- Illegal Fish Company Project -->
-  <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-    <a href="https://isss608-ay2022-23t2-jiaxunzou.netlify.app/" target="_blank" style="flex: 1;">
-      <img src="Visual.png" alt="Illegal Fish Company Project Screenshot" style="width:100%; max-width:250px; border-radius:10px; margin-right: 20px;">
+  <div style="margin-bottom: 20px;">
+    <h3>Illegal Fish Company Business Activity Analysis (R)</h3>
+    <a href="https://isss608-ay2022-23t2-jiaxunzou.netlify.app/" target="_blank">
+      <img src="Visual.png" alt="Illegal Fish Company Project Screenshot" style="width:100%; max-width:600px; border-radius:10px; margin-top:10px;">
     </a>
-    <div style="flex: 2;">
-      <h3>Illegal Fish Company Business Activity Analysis (R)</h3>
-      <p>Used Shiny to develop an interactive visual analytics tool to analyze and monitor corporate networks of fishery companies potentially involved in illegal, unreported, and unregulated (IUU) fishing activities. Processed a knowledge graph with data on companies, owners, employees, and financial status, transforming activities (nodes) and relationships (edges) into a structure suitable for network analysis. Utilized Centrality Analysis (Degree and Betweenness Centrality) to detect key entities with significant influence within the network, revealing ownership structures and transactional connections indicative of control.</p>
-    </div>
+    <p>Used Shiny to develop an interactive visual analytics tool to analyze and monitor corporate networks of fishery companies potentially involved in illegal, unreported, and unregulated (IUU) fishing activities. Processed a knowledge graph with data on companies, owners, employees, and financial status, transforming activities (nodes) and relationships (edges) into a structure suitable for network analysis. Utilized Centrality Analysis (Degree and Betweenness Centrality) to detect key entities with significant influence within the network, revealing ownership structures and transactional connections indicative of control.</p>
   </div>
 
-  <!-- IBM Employee Estimated Value Analysis Project -->
-  <div style="display: flex; align-items: flex-start; margin-bottom: 20px;">
-    <div style="flex: 2;">
-      <h3>IBM Employee Estimated Value Analysis (Python)</h3>
-      <p>Created a data-driven model to optimize EEV (Employee Estimated Value) for IBM by identifying high-impact factors affecting employee satisfaction. Implemented a Random Forest classifier to identify "at-risk" employees based on factors like job role, performance score, and satisfaction levels. Utilized K-means clustering to segment employees into distinct groups based on behavior patterns, tenure, and satisfaction scores, enabling targeted interventions for different employee profiles.</p>
-    </div>
+  <div style="margin-bottom: 20px;">
+    <h3>IBM Employee Estimated Value Analysis (Python)</h3>
+    <p>Created a data-driven model to optimize EEV (Employee Estimated Value) for IBM by identifying high-impact factors affecting employee satisfaction. Implemented a Random Forest classifier to identify "at-risk" employees based on factors like job role, performance score, and satisfaction levels. Utilized K-means clustering to segment employees into distinct groups based on behavior patterns, tenure, and satisfaction scores, enabling targeted interventions for different employee profiles.</p>
   </div>
 </section>
 
