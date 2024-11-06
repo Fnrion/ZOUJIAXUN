@@ -148,7 +148,15 @@
 
 <section id="community">
   <h2>Community</h2>
-  <p>Visit my community website: <a href="https://lizicup.netlify.app/" target="_blank">lizicup.netlify.app</a></p>
+  <p>
+    Welcome to our Yu-Gi-Oh! community, a dedicated space for enthusiasts and duelists who share a passion for the game. Our community has gathered hundreds of members and raised thousands of dollars to support various activities, making it a thriving hub for players of all levels. 
+  </p>
+  <p>
+    Every week, we organize exciting championships where duelists can compete, improve their skills, and enjoy the thrill of the game. Whether you’re a seasoned player or just starting, this community offers a welcoming environment to learn, grow, and connect with others who share your interest.
+  </p>
+  <p>
+    Visit our community website for more details: <a href="https://lizicup.netlify.app/" target="_blank">lizicup.netlify.app</a>
+  </p>
 </section>
 
   <!-- Sidebar Section with Fixed Position and Centered Content -->
