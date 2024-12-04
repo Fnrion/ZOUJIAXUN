@@ -47,22 +47,22 @@ ul.task-list li input[type="checkbox"] {
 
 
 <!-- Include Font Awesome for icons -->
-<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"></p>
-<p><link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet"></p>
+<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <link href="https://fonts.googleapis.com/css2?family=Roboto&amp;display=swap" rel="stylesheet"></p>
 <style>
   /* Style for the container */
   .container {
     display: flex;
     align-items: flex-start;
   }
-  /* Style for the main content to provide enough space */
+
+  /* Style for the main content */
   .main-content {
     width: 70%;
     padding-right: 20px;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: normal;
   }
-  /* Style for the sidebar to fix its position on the right */
+
+  /* Style for the sidebar */
   .sidebar {
     width: 25%;
     background-color: #f0f4f8;
@@ -78,6 +78,7 @@ ul.task-list li input[type="checkbox"] {
     overflow-y: auto;
     font-family: 'Roboto', sans-serif;
   }
+
   /* Style for sidebar links */
   .sidebar-link {
     color: #333;
@@ -85,27 +86,41 @@ ul.task-list li input[type="checkbox"] {
     padding: 5px;
     display: block;
     transition: background-color 0.3s;
-    font-weight: normal; /* Set font-weight to normal for sidebar links */
   }
+
   /* Style for the active link */
   .sidebar-link.active {
-    background-color: #d0e1ff; /* Highlight color */
+    background-color: #d0e1ff;
     border-radius: 5px;
     font-weight: bold;
   }
+
   /* Styling for headings */
   h2 {
-    font-weight: bold; /* Apply bold specifically to headings */
-    font-family: 'Roboto', sans-serif; /* Use Roboto for headings */
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  /* Custom styles for experience section */
+  .job-title {
+    font-weight: bold;
+  }
+  .company-info {
+    font-style: italic;
+    color: #333;
+  }
+  .date-info {
+    color: #666;
+    font-style: italic;
   }
 </style>
 <div class="container">
 <!-- Main Content Section -->
 <div class="main-content">
 <pre><code>&lt;section id="about"&gt;
-  &lt;p&gt;Student&lt;br&gt;
-  Singapore Management University, School of Computing and Information Systems&lt;br&gt;
-  Pursuing Master of IT in Business (Analytics Track)&lt;br&gt;
+  &lt;p&gt;&lt;strong&gt;Student&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;Singapore Management University, School of Computing and Information Systems&lt;/strong&gt;&lt;br&gt;
+  &lt;strong&gt;Pursuing Master of IT in Business (Analytics Track)&lt;/strong&gt;&lt;br&gt;
   &lt;em&gt;Singapore&lt;/em&gt;&lt;/p&gt;
 
   &lt;hr&gt;
@@ -116,28 +131,88 @@ ul.task-list li input[type="checkbox"] {
 &lt;section id="experience"&gt;
   &lt;h2&gt;Experience&lt;/h2&gt;
 
-  &lt;p&gt;&lt;strong&gt;Gaierpu International Trading Corporation, Export Trader&lt;/strong&gt;&lt;br&gt;
-  &lt;em&gt;Jiangsu, China&lt;/em&gt;&lt;br&gt;
-  &lt;span&gt;Jun 2021 - Aug 2021&lt;/span&gt;&lt;br&gt;
-  Collaborated with a team on inventory checks and customer engagement, securing a bulk order of 10,000 N95 masks and achieving 100% on-time delivery to enhance customer satisfaction.&lt;/p&gt;
+  &lt;p&gt;
+    &lt;span class="job-title"&gt;Export Trader&lt;/span&gt;, Gaierpu International Trading Corporation&lt;br&gt;
+    &lt;span class="company-info"&gt;Jiangsu, China&lt;/span&gt;&lt;br&gt;
+    &lt;span class="date-info"&gt;Jun 2021 - Aug 2021&lt;/span&gt;&lt;br&gt;
+    Collaborated with a team on inventory checks and customer engagement, securing a bulk order of 10,000 N95 masks and achieving 100% on-time delivery to enhance customer satisfaction.
+  &lt;/p&gt;
 
-  &lt;p&gt;&lt;strong&gt;Changzhou Jinbaihe, Account Assistant&lt;/strong&gt;&lt;br&gt;
-  &lt;em&gt;Jiangsu, China&lt;/em&gt;&lt;br&gt;
-  &lt;span&gt;Jun 2022 - Aug 2022&lt;/span&gt;&lt;br&gt;
-  Recorded daily transactions, coordinated financial reporting with department managers, and analyzed statements. Helped increase cash flow by 12% through insights on abnormal data like high receivables.&lt;/p&gt;
+  &lt;p&gt;
+    &lt;span class="job-title"&gt;Account Assistant&lt;/span&gt;, Changzhou Jinbaihe&lt;br&gt;
+    &lt;span class="company-info"&gt;Jiangsu, China&lt;/span&gt;&lt;br&gt;
+    &lt;span class="date-info"&gt;Jun 2022 - Aug 2022&lt;/span&gt;&lt;br&gt;
+    Recorded daily transactions, coordinated financial reporting with department managers, and analyzed statements. Helped increase cash flow by 12% through insights on abnormal data like high receivables.
+  &lt;/p&gt;
   
-  &lt;p&gt;&lt;strong&gt;J.P. Morgan, Assistant Analyst&lt;/strong&gt;&lt;br&gt;
-  &lt;em&gt;China (Remote Part-time)&lt;/em&gt;&lt;br&gt;
-  &lt;span&gt;Sep 2023 - Nov 2023&lt;/span&gt;&lt;br&gt;
-  Collected financial data during the federal rate hike cycle, consolidating insights in the database. Conducted company research, analyzed market trends, and provided investment recommendations to the fund manager.&lt;/p&gt;
-
-&lt;/section&gt;
-
-&lt;section id="publication"&gt;
-  &lt;h2&gt;Publication&lt;/h2&gt;
-  &lt;!-- Publication content here --&gt;
+  &lt;p&gt;
+    &lt;span class="job-title"&gt;Assistant Analyst&lt;/span&gt;, J.P. Morgan&lt;br&gt;
+    &lt;span class="company-info"&gt;China (Remote Part-time)&lt;/span&gt;&lt;br&gt;
+    &lt;span class="date-info"&gt;Sep 2023 - Nov 2023&lt;/span&gt;&lt;br&gt;
+    Collected financial data during the federal rate hike cycle, consolidating insights in the database. Conducted company research, analyzed market trends, and provided investment recommendations to the fund manager.
+  &lt;/p&gt;
 &lt;/section&gt;</code></pre>
+<section id="projects">
+<h2 class="anchored">
+Projects
+</h2>
+<div style="margin-bottom: 20px;">
+<pre><code>&lt;h3&gt;Illegal Fish Company Business Activity Analysis (R)&lt;/h3&gt;
+&lt;a href="https://isss608-ay2022-23t2-jiaxunzou.netlify.app/" target="_blank"&gt;
+  &lt;img src="Visual.png" alt="Illegal Fish Company Project Screenshot" style="width:100%; max-width:600px; border-radius:10px; margin-top:10px;"&gt;
+&lt;/a&gt;
+&lt;p&gt;Used Shiny to develop an interactive visual analytics tool to analyze and monitor corporate networks of fishery companies potentially involved in illegal, unreported, and unregulated (IUU) fishing activities. Processed a knowledge graph with data on companies, owners, employees, and financial status, transforming activities (nodes) and relationships (edges) into a structure suitable for network analysis. Utilized Centrality Analysis (Degree and Betweenness Centrality) to detect key entities with significant influence within the network, revealing ownership structures and transactional connections indicative of control.&lt;/p&gt;</code></pre>
 </div>
+<div style="margin-bottom: 20px;">
+<pre><code>&lt;h3&gt;IBM Employee Estimated Value Analysis (Python)&lt;/h3&gt;
+&lt;p&gt;Created a data-driven model to optimize EEV (Employee Estimated Value) for IBM by identifying high-impact factors affecting employee satisfaction. Implemented a Random Forest classifier to identify "at-risk" employees based on factors like job role, performance score, and satisfaction levels. Utilized K-means clustering to segment employees into distinct groups based on behavior patterns, tenure, and satisfaction scores, enabling targeted interventions for different employee profiles.&lt;/p&gt;</code></pre>
+</div>
+</section>
+<section id="skills">
+<h2 class="anchored">
+Skills
+</h2>
+<ul>
+<li>
+R
+</li>
+<li>
+Quarto
+</li>
+<li>
+Spreadsheet
+</li>
+<li>
+Shiny
+</li>
+<li>
+<a href="https://public.tableau.com/app/profile/jiaxun.zou/vizzes" target="_blank">Tableau</a>
+</li>
+<li>
+SAS
+</li>
+<li>
+Python
+</li>
+<li>
+EViews
+</li>
+</ul>
+</section>
+<section id="community">
+<h2 class="anchored">
+Community
+</h2>
+<p>
+Welcome to our Yu-Gi-Oh! community, a dedicated space for enthusiasts and duelists who share a passion for the game. Our community has gathered hundreds of members and raised thousands of dollars to support various activities, making it a thriving hub for players of all levels.
+</p>
+<p>
+Every week, we organize exciting championships where duelists can compete, improve their skills, and enjoy the thrill of the game. Whether you’re a seasoned player or just starting, this community offers a welcoming environment to learn, grow, and connect with others who share your interest.
+</p>
+<p>
+Visit our community website for more details: <a href="https://lizicup.netlify.app/" target="_blank">lizicup.netlify.app</a>
+</p>
+</section>
 <!-- Sidebar Section with Fixed Position and Centered Content -->
 <div class="sidebar">
 <pre><code>&lt;img src="profile.jpg" width="180px" alt="Profile Picture" style="border-radius: 50%; margin-bottom: 10px;"&gt;
@@ -159,11 +234,11 @@ ul.task-list li input[type="checkbox"] {
 
 &lt;!-- Sidebar Navigation Links --&gt;
 &lt;ul style="list-style: none; padding: 0; text-align: center;"&gt;
-  &lt;li&gt;&lt;a href="#about" class="sidebar-link"&gt;About&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#experience" class="sidebar-link"&gt;Experience&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#projects" class="sidebar-link"&gt;Projects&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#skills" class="sidebar-link"&gt;Skills&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href="#publication" class="sidebar-link"&gt;Publication&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#about" class="sidebar-link"&gt;About&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#experience" class="sidebar-link"&gt;Experience&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#projects" class="sidebar-link"&gt;Projects&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#skills" class="sidebar-link"&gt;Skills&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#community" class="sidebar-link"&gt;Community&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</code></pre>
 </div>
 </div>
@@ -189,10 +264,10 @@ ul.task-list li input[type="checkbox"] {
       });
     }
 
-    // Run highlightCurrentSection on scroll
     window.addEventListener("scroll", highlightCurrentSection);
   });
 </script>
+</div>
 
 </main>
 <!-- /main column -->
