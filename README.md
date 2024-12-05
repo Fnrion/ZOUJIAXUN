@@ -135,6 +135,7 @@
     <li>Shiny</li>
     <li><a href="https://public.tableau.com/app/profile/jiaxun.zou/vizzes" target="_blank">Tableau</a></li>
     <li>SAS</li>
+    <li>SQL</li>
     <li>Python</li>
     <li>EViews</li>
   </ul>
